@@ -1,0 +1,263 @@
+{
+    "intents":[
+       {
+          "tag":"greeting",
+          "patterns":[
+             "Hi there",
+             "How are you",
+             "Is anyone there?",
+             "Hey",
+             "Hola",
+             "Hello",
+             "Good day"
+          ],
+          "responses":[
+             "Hello!",
+             "Hey!",
+             "Hi, how can I help?"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"goodbye",
+          "patterns":[
+             "Bye",
+             "See you later",
+             "Goodbye",
+             "Nice chatting to you, bye",
+             "Till next time"
+          ],
+          "responses":[
+             "Good bye!",
+             "Have a nice day!",
+             "Bye! Take care."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"thanks",
+          "patterns":[
+             "Thanks",
+             "Thank you",
+             "That's helpful",
+             "Awesome, thanks",
+             "Thanks for helping me"
+          ],
+          "responses":[
+             "Happy to help!",
+             "Any time!",
+             "My pleasure"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"noanswer",
+          "patterns":[
+             
+          ],
+          "responses":[
+             "Sorry, I can't understand you",
+             "Please give me more info",
+             "Not sure I understand"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"options",
+          "patterns":[
+             "How you could help me?",
+             "What you can do?",
+             "Are you human?",
+             "What help you provide?",
+             "How you can be helpful?",
+             "What support is offered"
+          ],
+          "responses":[
+             "My name is ENSAM_Meknes_assistant, and I'm a chatbot.",
+             "I am a chatbot exclusively designed to answer your questions concerning ENSAM_Meknes."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"ensam_info",
+          "patterns":[
+             "What is ENSAM ?",
+             "Is ENSAM an engineering school ?",
+             "ENSAM ?",
+             "Is ENSAM a high school ?",
+             "I would like to know more about ENSAM",
+             "Tell me about ENSAM"
+          ],
+          "responses":[
+             "ENSAM Meknes is the first Moroccan Design and Technology Engineering school",
+             "A Moroccan school that prepares and offers highly qualified design and technology engineers by providing curricula that focus on both hard and soft skills"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"creation",
+          "patterns":[
+             "when was it created",
+             "when did it first open its doors",
+             "date of creation",
+             "creation date",
+             "when was it first created"
+          ],
+          "responses":[
+             "It was inaugurated in September 1997 under Royal High Directives",
+             "The school opened its doors in September 1997"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"location",
+          "patterns":[
+             "where is it located ?",
+             "in which city is ENSAM located ?",
+             "Is it located in Marrakech ?",
+             "Location ?",
+             "Place ?"
+          ],
+          "responses":[
+             "It is located in Meknes. However, it has other branches in Paris, Casablanca and Rabat"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"educational_path_way",
+          "patterns":[
+             "I would like to know more about the studies",
+             "How is the educational path way",
+             "the studies ?"
+          ],
+          "responses":[
+             "During 5 years of studies, the futur engineeres go through a preparatory cycle of 4 semesters then an engineering cycle of 6 semesters",
+             "The educational training is devided into 2 cycles: A preparatory cycle and an engineering cycle"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"integrated_preparatory_cycle",
+          "patterns":[
+             "integrated preparatory cycle",
+             "what is the integrated preparatory cycle ?",
+             "Preparatory cycle ?",
+             "i want to know more about the preparatory cycle"
+          ],
+          "responses":[
+             "The integrated preparatory cycle provides students with human, technical and scientific fundamentals for the engineering cycle requirements",
+             "The integrated preparatory cycle helps students develop a methodological know-how as well as a meticulous critical thinking and thus ensures a smooth transition from high school to engineering school"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"ingineering_cycle",
+          "patterns":[
+             "engineering cycle?",
+             "what is the enginnering cycle?",
+             "i want to know more about the engineering cycle"
+          ],
+          "responses":[
+             "During the engineering cycle, the students acquire the necessary scientific, technical and professional skills and adapt to an evolving professional environment.",
+             "This is the cycle where students learn to assume responsabilities and adapt to the evolving professional environment"
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"fundamental_modules",
+          "patterns":[
+             "most important modules?",
+             "what are the fundamental modules?",
+             "modules"
+          ],
+          "responses":[
+             "The are 3 types of educational modules: Core modules, practice oriented modules and finally the culture and communication modules.",
+             "There are core modules related to engineering science such as automation, mathematics and computer science. Practice oriented modules such as mechanical and manufacturing engineering. There also culture and comunication modules like project management and languages."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"engineering_majors",
+          "patterns":[
+             "what are the available majors?",
+             "engineering majors?",
+             "engineering fields"
+          ],
+          "responses":[
+             "There are six available majors: Mechanical engineering, Electromechanical engineering, Civil engineering, Production & Industrial engineering, and finally Industrial Minor AI engineering."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"baccalaureat_type",
+          "patterns":[
+             "what type of bac is required?",
+             "i have a bac can i apply forn ensam?",
+             "what bac in necessary?"
+          ],
+          "responses":[
+             "To apply for ENSAM_Meknes, the candidate must have either a mathematical sciences baccalaureat, experimental sciences baccalaureat, technical sciences baccalaureat or certain fields of the professional baccalaureat. "
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"access_contest_requirement",
+          "patterns":[
+             "what are the conditions to pass the access contest?",
+             "how tp pass the access contest?",
+             "how can i become a student at ensam",
+             "what are the conditions of access"
+          ],
+          "responses":[
+             "To become a student at ENSAM_Meknes, the condidate needs to have a newly received bac and it has to fit 2 criterias: the type and the access threshold. Once they are satisfied, the condidate must pass a writen contest in maths and physics. Based on their contest score the candiadates are ranked. The best 300 students willing to access get the place."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"access_threshold",
+          "patterns":[
+             "what is the minimum mark one should have to pass the contest",
+             "what is the access threshold",
+             "how much should i get at bac to pass the contest",
+             "threshold",
+             "minimum score"
+          ],
+          "responses":[
+             "The threshold to pass ENSAM's access contest depend on the type of baccalaureat the condidate has. For mathmatical sciences, technical and professional baccalaureat the threshold is usually between 12 and 14. For experimental sciences it's between 16 and 18."
+          ],
+          "context":[
+             ""
+          ]
+       }
+    ]
+ }
